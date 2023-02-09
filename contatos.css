@@ -1,0 +1,49 @@
+.container05 {
+  background-color: #000;
+  min-height: 100vh;
+  padding-top: 5%;
+}
+
+.contato {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+}
+.tituloContato {
+  color: rgba(105, 98, 98, 0.61);
+  font-size: 100px;
+  padding-top: 100px;
+}
+
+.imgContatos {
+  padding-top: 12%;
+}
+
+.container05 {
+  background-color: #000;
+  min-height: 100vh;
+  padding-top: 5%;
+}
+
+.contato {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+}
+.tituloContato {
+  color: rgba(105, 98, 98, 0.61);
+  font-size: 100px;
+  padding-top: 100px;
+}
+
+.imgtexdecoration {
+  text-decoration: none;
+}
+
+.footer {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
