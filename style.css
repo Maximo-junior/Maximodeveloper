@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&amp;display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Rubik", sans-serif;
+}
+
+/*Página Home*/
+.background {
+  background-image: url(./imagens/fundogif.gif);
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.cabecalho-link {
+  display: flex;
+  gap: 2rem;
+  cursor: pointer;
+  margin-left: 60%;
+  margin-top: 15px;
+}
+
+.cabecalho-link a {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "fontePerso2";
+  text-decoration: none;
+  transition-property: color, text-decoration;
+  transition-duration: 700ms;
+  transition-delay: 100ms;
+}
+
+.cabecalho-link a:hover {
+  color: rgb(187, 255, 0);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.container-text {
+  padding: 150px 0 0 130px;
+  color: white;
+}
+
+.text {
+  margin-left: 25px;
+}
+
+.text.h4 {
+  padding-top: 10rem;
+}
+p.h4 {
+  font-family: "fontePerso";
+  font-size: 90px;
+  color: #ffffffd7;
+}
+
+.text .NomePrincipal {
+  color: rgba(187, 255, 0, 0.884);
+  font-size: 80px;
+  font-family: "fontePerso";
+  font-weight: 800;
+}
+
+/*Sobre mim */
+.container02 {
+  background-color: #000;
+  min-height: 50vh;
+}
+
+.sobre {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  padding-top: 10%;
+}
+.tituloSobre {
+  color: rgba(105, 98, 98, 0.61);
+  font-size: 100px;
+}
+
+.container3 {
+  background-color: #000;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(80px, auto);
+  gap: 10px 15px;
+  grid-template-areas: "item1 item2 item2";
+}
+.item1 {
+  grid-area: item1; /* Colocamos o nome do item aqui*/
+}
+
+.item2 {
+  grid-area: item2;
+}
+
+.textQuemSou {
+  color: rgb(187, 255, 0);
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  font-weight: 555;
+  display: flex;
+  gap: 3rem;
+  margin-left: 12%;
+  margin-top: 15px;
+}
+
+.descricao {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-weight: 555;
+  font-size: 25px;
+  display: flex;
+  gap: 3rem;
+  margin-left: 12%;
+  margin-top: 15px;
+  line-height: 55px;
+}
+
+.skils {
+  color: rgb(187, 255, 0);
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  font-weight: 555;
+  margin-left: 12%;
+  margin-top: 20px;
+}
+
+/*Projetos*/
+.container04 {
+  background-color: #000;
+  min-height: 100vh;
+}
+
+.projetotext {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: rgba(105, 98, 98, 0.61);
+  font-size: 100px;
+  font-weight: 800;
+}
+
+.carousel-inner > .carousel-item > a > img {
+  width: 700px;
+  transform: scale(0.7);
+  height: 500px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: solid 1px white;
+}
+
+/*Contatos*/
+.container05 {
+  background-color: #000;
+  min-height: 100vh;
+  padding-top: 5%;
+}
+
+.contato {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+}
+.tituloContato {
+  color: rgba(105, 98, 98, 0.61);
+  font-size: 100px;
+  padding-top: 100px;
+}
+
+.imgContatos {
+  padding-top: 12%;
+}
+
+.container05 {
+  background-color: #000;
+  min-height: 100vh;
+  padding-top: 5%;
+}
+
+.contato {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+}
+.tituloContato {
+  color: rgba(105, 98, 98, 0.61);
+  font-size: 100px;
+  padding-top: 100px;
+}
+
+.imgtexdecoration {
+  text-decoration: none;
+}
+
+.footer {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*Fontes personalizadas*/
+@font-face {
+  font-family: "fontePerso";
+  src: url("./fonts/23\ seconds\ to\ midnight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "fontePerso2";
+  src: url("./fonts/aliens\ and\ cows_trial.ttf") format("Truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/*Media*/
+@media (max-width: 1266px) {
+  .cabecalho-link a {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 1154px) {
+  .cabecalho-link a {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1099px) {
+  header {
+    max-width: 63%;
+    gap: 2px;
+  }
+}
+
+@media (max-width: 890px) {
+  .text .NomePrincipal {
+    font-size: 50px;
+  }
+
+  p.h4 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 741px) {
+  .text .NomePrincipal {
+    font-size: 50px;
+  }
+
+  .carousel-inner > .carousel-item > a > img {
+    width: 700px;
+    transform: scale(0.6);
+  }
+}
+
+@media (max-width: 698px) {
+  .carousel-inner > .carousel-item > a > img {
+    width: 400px;
+    transform: scale(0.5);
+    height: 320px;
+  }
+  .projetotext {
+    font-size: 85px;
+  }
+
+  .tituloContato {
+    color: rgba(105, 98, 98, 0.61);
+    font-size: 85px;
+    padding-top: 100px;
+  }
+
+  .footer {
+    font-size: 10px;
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}
+
+@media (max-width: 610px) {
+  p.h4 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 547px) {
+  .cabecalho-link a {
+    text-decoration: none;
+  }
+
+  .carousel-inner > .carousel-item > a > img {
+    width: 450px;
+    transform: scale(0.5);
+    height: 300px;
+  }
+}
+
+@media (max-width: 522px) {
+  .container02 {
+    min-height: 65vh;
+  }
+  .descricao {
+    font-size: 18px;
+  }
+
+  .carousel-inner > .carousel-item > a > img {
+    width: 400px;
+    transform: scale(0.5);
+    height: 340px;
+  }
+
+  .projetotext {
+    font-size: 70px;
+  }
+
+  .tituloContato {
+    color: rgba(105, 98, 98, 0.61);
+    font-size: 70px;
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 517px) {
+  p.h4 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 516px) {
+  .textQuemSou {
+    font-size: 30px;
+  }
+
+  .skils {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 509px) {
+  .tituloSobre {
+    font-size: 90px;
+  }
+}
+@media (max-width: 409px) {
+  .cabecalho-link a {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 452px) {
+  .cabecalho-link a {
+    font-size: 22px;
+  }
+
+  .projetotext {
+    font-size: 50px;
+  }
+
+  .tituloContato {
+    color: rgba(105, 98, 98, 0.61);
+    font-size: 50px;
+    padding-top: 80px;
+  }
+
+  .footer {
+    font-size: 8px;
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}
+
+@media (max-width: 424px) {
+  .cabecalho-link a {
+    font-size: 22px;
+    text-decoration: none;
+  }
+
+  .projetotext {
+    font-size: 80px;
+  }
+
+  .carousel-inner > .carousel-item > a > img {
+    width: 380px;
+    transform: scale(0.5);
+    height: 280px;
+  }
+  .projetotext {
+    font-size: 50px;
+  }
+
+  .tituloContato {
+    color: rgba(105, 98, 98, 0.61);
+    font-size: 50px;
+    padding-top: 80px;
+  }
+
+  .footer {
+    font-size: 8px;
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}
+
+@media (max-width: 423px) {
+  p.h4 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 504px) {
+  .container02 {
+    min-height: 80vh;
+  }
+}
+
+@media (max-width: 392px) {
+  .cabecalho-link a {
+    font-size: 19px;
+  }
+  .cabecalho-link {
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+    margin-left: 60%;
+    margin-top: 15px;
+  }
+
+  .carousel-inner > .carousel-item > a > img {
+    width: 300px;
+    transform: scale(0.5);
+    height: 200px;
+  }
+}
+
+@media (max-width: 364px) {
+  .cabecalho-link a {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 353px) {
+  .text .NomePrincipal {
+    font-size: 45px;
+  }
+
+  .container02 {
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 330px) {
+  p.h4 {
+    font-size: 28px;
+  }
+  .text .NomePrincipal {
+    font-size: 28px;
+  }
+
+  .cabecalho-link {
+    gap: 1rem;
+  }
+
+  .container02 {
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 326px) {
+}
