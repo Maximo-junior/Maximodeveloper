@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&amp;display=swap");
+@import url(./home.css);
+@import url(./sobre.css);
+@import url(./projetos.css);
+@import url(./contatos.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Rubik", sans-serif;
+}
+
+@media (max-width: 1266px) {
+  .cabecalho-link a {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 1154px) {
+  .cabecalho-link a {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1099px) {
+  header {
+    max-width: 63%;
+    gap: 2px;
+  }
+}
+
+@media (max-width: 890px) {
+  .text .NomePrincipal {
+    font-size: 50px;
+  }
+
+  p.h4 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 741px) {
+  .text .NomePrincipal {
+    font-size: 50px;
+  }
+
+  .carousel-inner > .carousel-item > a > img {
+    width: 700px;
+    transform: scale(0.6);
+  }
+}
+
+@media (max-width: 698px) {
+  .carousel-inner > .carousel-item > a > img {
+    width: 400px;
+    transform: scale(0.5);
+    height: 320px;
+  }
+  .projetotext {
+    font-size: 85px;
+  }
+
+  .tituloContato {
+    color: rgba(105, 98, 98, 0.61);
+    font-size: 85px;
+    padding-top: 100px;
+  }
+
+  .footer {
+    font-size: 10px;
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .imgFooter {
+    width: 90px;
+    height: 55px;
+  }
+}
+
+@media (max-width: 610px) {
+  p.h4 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 547px) {
+  .cabecalho-link a {
+    text-decoration: none;
+  }
+
+  .carousel-inner > .carousel-item > a > img {
+    width: 450px;
+    transform: scale(0.5);
+    height: 300px;
+  }
+}
+
+@media (max-width: 522px) {
+  .container02 {
+    min-height: 65vh;
+  }
+  .descricao {
+    font-size: 18px;
+  }
+
+  .carousel-inner > .carousel-item > a > img {
+    width: 400px;
+    transform: scale(0.5);
+    height: 340px;
+  }
+
+  .projetotext {
+    font-size: 70px;
+  }
+
+  .tituloContato {
+    color: rgba(105, 98, 98, 0.61);
+    font-size: 70px;
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 517px) {
+  p.h4 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 516px) {
+  .textQuemSou {
+    font-size: 30px;
+  }
+
+  .skils {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 509px) {
+  .tituloSobre {
+    font-size: 90px;
+  }
+}
+@media (max-width: 409px) {
+  .cabecalho-link a {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 452px) {
+  .cabecalho-link a {
+    font-size: 22px;
+  }
+
+  .projetotext {
+    font-size: 50px;
+  }
+
+  .tituloContato {
+    color: rgba(105, 98, 98, 0.61);
+    font-size: 50px;
+    padding-top: 80px;
+  }
+
+  .footer {
+    font-size: 8px;
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .imgFooter {
+    width: 80px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 424px) {
+  .cabecalho-link a {
+    font-size: 22px;
+    text-decoration: none;
+  }
+
+  .projetotext {
+    font-size: 80px;
+  }
+
+  .carousel-inner > .carousel-item > a > img {
+    width: 380px;
+    transform: scale(0.5);
+    height: 280px;
+  }
+  .projetotext {
+    font-size: 50px;
+  }
+
+  .tituloContato {
+    color: rgba(105, 98, 98, 0.61);
+    font-size: 50px;
+    padding-top: 80px;
+  }
+
+  .footer {
+    font-size: 8px;
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .imgFooter {
+    width: 80px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 423px) {
+  p.h4 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 504px) {
+  .container02 {
+    min-height: 80vh;
+  }
+}
+
+@media (max-width: 392px) {
+  .cabecalho-link a {
+    font-size: 19px;
+  }
+  .cabecalho-link {
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+    margin-left: 60%;
+    margin-top: 15px;
+  }
+
+  .carousel-inner > .carousel-item > a > img {
+    width: 300px;
+    transform: scale(0.5);
+    height: 200px;
+  }
+}
+
+@media (max-width: 364px) {
+  .cabecalho-link a {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 353px) {
+  .text .NomePrincipal {
+    font-size: 45px;
+  }
+
+  .container02 {
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 330px) {
+  p.h4 {
+    font-size: 28px;
+  }
+  .text .NomePrincipal {
+    font-size: 28px;
+  }
+
+  .cabecalho-link {
+    gap: 1rem;
+  }
+
+  .container02 {
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 326px) {
+}
