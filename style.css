@@ -220,6 +220,7 @@ p.h4 {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+/*Fontes personalizadas*/
 @font-face {
   font-family: "fontePerso";
   src: url("./fonts/23\ seconds\ to\ midnight.ttf") format("truetype");
@@ -233,7 +234,7 @@ p.h4 {
   font-weight: normal;
   font-style: normal;
 }
-
+/*Media*/
 @media (max-width: 1266px) {
   .cabecalho-link a {
     font-size: 27px;
@@ -294,11 +295,6 @@ p.h4 {
     color: white;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  }
-
-  .imgFooter {
-    width: 90px;
-    height: 55px;
   }
 }
 
@@ -393,11 +389,6 @@ p.h4 {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
-
-  .imgFooter {
-    width: 80px;
-    height: 45px;
-  }
 }
 
 @media (max-width: 424px) {
@@ -430,11 +421,6 @@ p.h4 {
     color: white;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  }
-
-  .imgFooter {
-    width: 80px;
-    height: 45px;
   }
 }
 
