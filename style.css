@@ -240,10 +240,7 @@
     margin-left: 60%;
     margin-top: 15px;
   }
-  .container02 {
-    background-color: #000;
-    min-height: 100vh;
-  }
+
   .carousel-inner > .carousel-item > a > img {
     width: 300px;
     transform: scale(0.5);
@@ -272,7 +269,7 @@
     font-size: 28px;
   }
   .text .NomePrincipal {
-    font-size: 33px;
+    font-size: 28px;
   }
 
   .cabecalho-link {
@@ -285,8 +282,4 @@
 }
 
 @media (max-width: 326px) {
-  .container02 {
-    background-color: #000;
-    min-height: 100vh;
-  }
 }
